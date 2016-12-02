@@ -8,17 +8,28 @@
     "package": "electron-packager . --out=dist --all --icon=resources/iothub",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seank-com/iothubtool.git"
+  },
+  "keywords": [
+    "IoTHub",
+    "Azure"
+  ],
   "author": "SeanK",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seank-com/iothubtool/issues"
+  },
+  "homepage": "https://github.com/seank-com/iothubtool#readme",
   "devDependencies": {
     "electron": "^1.4.10",
-    "electron-packager": "^8.3.0",
-    "electron-rebuild": "^1.4.0"
+    "electron-packager": "^8.3.0"
   },
   "dependencies": {
     "azure-event-hubs": "0.0.4",
     "azure-iot-common": "^1.0.16",
     "azure-iothub": "^1.0.18",
-    "uuid": "^2.0.3"
+    "uuid": "^3.0.1"
   }
 }
